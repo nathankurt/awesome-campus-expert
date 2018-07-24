@@ -11,11 +11,12 @@ Resources marked with a :triangular_flag_on_post: have been created by campus ex
   - [Markdown](#markdown)
 - [Workshops](#workshops)
   - [Tips](#tips)
+  - [Teaching](#teaching)
   - [Slide Resources](#slide-resources)
 - [Writing](#writing)
   - [Tools](#tools)
   - [Content Guides](#content-guides)
-- [Open Source](#opensource)
+- [Open Source](#open-source)
   - [Find projects](#find-projects)
 - [Community](#community)
   - [Management](#management)
@@ -46,11 +47,18 @@ Resources for running workshops and workshops that other campus experts have run
 ### Tips
 
 - [Speaking.io](http://speaking.io/) - a cool website with some good tips on giving talks, focused on tech talks mostly
+- [The Art of Slide Design](https://missgeeky.com/2017/08/04/the-art-of-slide-design/) - Melinda Seckington, talk on the fundamentals of good slide design for pleasant and effective transfer of information.
 
+### Teaching 
+
+- [github/training-utils](https://github.com/github/training-utils) - A series of Bash and ZShell scripts useful when teaching about git and GitHub (+ bonus [list of useful apps](https://github.com/github/training-utils#other-useful-apps))
+- [codesandbox](https://codesandbox.io/) - Online web application editor (react, vue), useful when running a react/vue or other framework type workshop.
+- [Glitch](https://glitch.com/) - Online HTML/JS/CSS editor and viewer, very useful when doing HTMl / web based workshops. Also hosts the static site at project-name.glitch.me. Bonus, runs node.js so it can also be used to run an api workshop if the backend is written in node.js.
 
 ### Slide Resources
 - [FsReveal](https://github.com/fsprojects/FsReveal) - FsReveal allows you to write beautiful slides in Markdown and brings F# to the reveal.js web presentation framework.
 - [Remark](https://github.com/gnab/remark) - A simple, in-browser, markdown-driven slideshow tool targeted at people who know their way around HTML and CSS.
+- [`reveal-md`](https://www.npmjs.com/package/reveal-md) - Write reveal.js slides as a single markdown file, and use markdown's html fallback to add more complicated markup and set reveal-specific configuration (like fragments).
 
 ## Writing
 
